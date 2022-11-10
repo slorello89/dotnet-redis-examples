@@ -48,6 +48,7 @@ db.HashSet("dog:1", new HashEntry[] {new ("name", "Honey"), new ("breed", "Greyh
 var name = db.HashGet("dog:1", "name");
 Console.WriteLine($"dog:1 name from hash: {name}");
 
+// delete dog hash key so we can reuse in JSON
 db.KeyDelete("dog:1");
 
 // sets a dog object as a json document in Redis
