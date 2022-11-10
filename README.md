@@ -9,3 +9,10 @@ To run these examples, you will need to be using [Redis Stack](https://redis.io/
 ```bash
 docker run -p 6379:6379 -p 8001:8001 redis/redis-stack
 ```
+
+## Helpful Links
+
+* [StackExchange.Redis](https://github.com/stackExchange/StackExchange.Redis)
+* For all things Redis Related you can check out [redis.io](http://redis.io/)
+* If you want to learn more about indexing in Redis and using LINQ with redis
+Check out the [Redis OM repo](https://github.com/redis/redis-om-dotnet)
